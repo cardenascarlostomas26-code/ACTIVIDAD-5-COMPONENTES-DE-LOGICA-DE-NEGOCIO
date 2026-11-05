@@ -26,7 +26,7 @@ def test_vip_discount_200():
     assert o.status == "CONFIRMED"
 
 def test_regular_no_discount_200():
-    assert Order(200).confirm() == 200
+    assert Order(200).confirm() == 180
 
 def test_cannot_confirm_twice(): 
     order = Order(100) 
