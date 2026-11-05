@@ -1,0 +1,20 @@
+[
+  "tests/test_order.py::test_cannot_confirm_twice",
+  "tests/test_order.py::test_customer_debt",
+  "tests/test_order.py::test_invalid_total[-1]",
+  "tests/test_order.py::test_invalid_total[0]",
+  "tests/test_order.py::test_regular_no_discount",
+  "tests/test_order.py::test_regular_no_discount_200",
+  "tests/test_order.py::test_vip_discount",
+  "tests/test_order.py::test_vip_discount_200",
+  "tests/test_repository.py::test_repository_commit",
+  "tests/test_repository.py::test_repository_commit_order_250",
+  "tests/test_repository.py::test_repository_rollback",
+  "tests/test_security.py::test_expired_denied",
+  "tests/test_security.py::test_owner_within_24h",
+  "tests/test_security.py::test_shipped_denied_even_admin",
+  "tests/test_security.py::test_stranger_denied",
+  "tests/test_service.py::test_gateway_approved",
+  "tests/test_service.py::test_gateway_rejected",
+  "tests/test_service.py::test_vip_payment_rejected_200"
+]
